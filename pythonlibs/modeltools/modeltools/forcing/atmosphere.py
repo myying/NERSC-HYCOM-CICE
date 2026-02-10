@@ -47,7 +47,9 @@ _all_known_names = [
       "ustar",
       "sradtop",
       "vapmix",
-      "relhum"
+      "relhum",
+      "tcwv",
+      "tclw",
       ]
 
 # Units used by internal calculations in this module
@@ -71,7 +73,9 @@ _assumed_units = {
       "ustar":"m s**-1",
       "sradtop":"W m**-2",
       "vapmix":"kg kg**-1",
-      "relhum":"1"
+      "relhum":"1",
+      "tcwv":"kg m**-2",
+      "tclw":"kg m**-2",
       }
 
 

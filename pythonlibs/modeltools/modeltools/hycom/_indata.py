@@ -14,7 +14,9 @@ variable_names = {
       "str"     : "nlwrad",
       "taux"    : "taux",
       "tauy"    : "tauy",
-      "2d"      : "dewpt"
+      "2d"      : "dewpt",
+      "tcwv"    : "tcwv",
+      "tclw"    : "tclw",
       }
 
 
@@ -32,13 +34,17 @@ variable_units = {
       "str"     : "W m**-2",
       "taux"    : "N m**-2",
       "tauy"    : "N m**-2",
-      "2d"      : "K"
+      "2d"      : "K",
+      "tcwv"    : "kg m**-2",
+      "tclw"    : "kg m**-2",
       }
 
 
 variable_limits = { 
       "vapmix" : [0.,None],
-      "tp"     : [0.,None]
+      "tp"     : [0.,None],
+      "tcwv"   : [0.,None],
+      "tclw"   : [0.,None],
       }
 
 
